@@ -25,8 +25,9 @@ const nodeCheer = ({myFirstName: first, myLastName: second}) => { //fat arrow
             setTimeout( () => {
                 if(-i){
                     let letter = nameArr[a].toUpperCase();
-                    let conj = 'halfnorsmix'.includes(letter.toLowerCase()) ? 'an' : 'a '; //1 line if else
+                    let conj = 'halfnorsmix'.includes(letter.toLowerCase()) ? 'an' : 'a '; //1 line if else-- turinary statement
                     console.log(`Gimmie ${conj} ${letter}!`);
+                    
                     i--;
                     a++;
                     printLetters(i);
